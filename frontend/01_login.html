@@ -4,7 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <title>로그인 페이지</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Nanum+Pen+Script&display=swap"
+          rel="stylesheet">
     <style>
+        * {
+            font-family: 'Do Hyeon', sans-serif;
+        }
+
         .mytitle {
             background-color: gray;
             width: 300px;
@@ -21,16 +29,19 @@
 
             padding-top: 20px;
         }
-        .wrap{
+
+        .wrap {
             width: 300px;
             margin: auto;
         }
-        .mybtn{
+
+        .mybtn {
             width: 100px;
             margin: auto;
             display: block;
         }
-        .red-font{
+
+        .red-font {
             color: red;
             font-size: 16px;
         }
@@ -38,15 +49,15 @@
 </head>
 <body>
 <div class="wrap">
-<div class="mytitle">
-    <h1>로그인 페이지</h1>
-    <h5>아이디, 패스워드를 입력해주세요</h5>
-</div>
-<p>ID : <input type="text"/></p>
-<p>PW : <input type="text"/></p>
-<p>
-    <button class="mybtn"> 로그인하기</button>
-</p>
+    <div class="mytitle">
+        <h1>로그인 페이지</h1>
+        <h5>아이디, 패스워드를 입력해주세요</h5>
     </div>
+    <p>ID : <input type="text"/></p>
+    <p>PW : <input type="text"/></p>
+    <p>
+        <button class="mybtn"> 로그인하기</button>
+    </p>
+</div>
 </body>
 </html>
