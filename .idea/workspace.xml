@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1861eed7-c65e-48d4-9d0f-01db811ff333" name="Changes" comment="" />
+    <list default="true" id="1861eed7-c65e-48d4-9d0f-01db811ff333" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/02_Ajex_quiz.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/02_Ajex_quiz02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/02_Ajex_quiz03.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/jQuery_quiz.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/02_jQuery_quiz.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +40,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pride\Desktop\Document\Sparta\Sparta_Coding_bootcamp\frontend" />
       <recent name="C:\Users\pride\Desktop\Document\Sparta\Sparta_Coding_bootcamp\homework" />
     </key>
   </component>
@@ -46,12 +53,23 @@
       <option name="presentableId" value="Default" />
       <updated>1640699561783</updated>
       <workItem from="1640699563238" duration="7613000" />
-      <workItem from="1640854595689" duration="2056000" />
+      <workItem from="1640854595689" duration="5689000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
