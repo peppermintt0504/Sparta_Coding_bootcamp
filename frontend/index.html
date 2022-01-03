@@ -55,6 +55,45 @@
         }
     </style>
     <script>
+        $(document).ready(function () {
+            listing();
+        });
+
+        function listing() {
+            console.log('화면 로딩 후 잘 실행되었습니다');
+            $.ajax({
+                type: "GET",
+                url: "http://spartacodingclub.shop/post",
+                data: {},
+                success: function (response) {
+                    $('#card-box').empty()
+                    let row = response['articles']
+                    for(let i = 0; i <row.length; i++){
+                        let comment = row[i]['comment']
+                        let desc = row[i]['desc']
+                        let img = row[i]['image']
+                        let title = row[i]['title']
+                        let url = row[i]['url']
+
+                        let temp_html = `
+                        <div class="card ">
+                            <img class="card-img-top" src="${img}"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <a class="card-title" href="${url}">${title}</a>
+                                <p class="card-text">${desc}</p>
+                                <p class="card-text comment">${comment}</p>
+                            </div>
+                        </div>
+                        `
+
+                        $('#card-box').append(temp_html)
+                    }
+
+                }
+            })
+        }
+
         let num = 0;
 
         function open_close() {
@@ -102,6 +141,7 @@
             <p class="card-text comment">여기에 코멘트가 들어갑니다.</p>
         </div>
     </div>
+
     <div class="card ">
         <img class="card-img-top" src="https://cdn.kihoilbo.co.kr/news/photo/201902/792241_247400_4056.jpg"
              alt="Card image cap">
@@ -111,6 +151,7 @@
             <p class="card-text comment">여기에 코멘트가 들어갑니다.</p>
         </div>
     </div>
+
     <div class="card ">
         <img class="card-img-top" src="https://cdn.kihoilbo.co.kr/news/photo/201902/792241_247400_4056.jpg"
              alt="Card image cap">
